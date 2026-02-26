@@ -1,0 +1,19 @@
+name: BDA_final
+channels:
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - fastparquet
+  - tqdm
+  - conda-lock
+  - pandas
+  - scikit-learn
+  - python=3.9
+  - xgboost
+  - pyarrow
+  - lightgbm
+  - pip
+  - pip:
+    - polars
+prefix: /Users/sanghyun/miniconda3/envs/BDA_final
